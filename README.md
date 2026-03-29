@@ -27,19 +27,8 @@
 
 
 ## Установка
-1. Клонируйте репозиторий:
-   ```
-   git clone https://github.com/your-username/currency-converter.git
-   ```
-2. Перейдите в папку проекта:
-   ```
-   cd currency-converter
-   ```
-3. Установите зависимости:
+Установка проекта: Зелёная кнопка Code, Download ZIP, открываем папку, запускаем Main.py и пользуемся
 
-   ```
-   pip install requests
-   ```
 
 ## Пример работы:
 [![Пример работы](https://img.youtube.com/vi/BGKLTqbtqdE/0.jpg)](https://www.youtube.com/watch?v=BGKLTqbtqdE)
