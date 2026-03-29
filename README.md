@@ -3,7 +3,7 @@
 
 
 ## Разработчик
-Привет! Это конвентатор волют. Его сделал я, **Black Pagan (BP)**. Я есть на [YouTube](https://www.youtube.com/@Black_Pagan_YT), на [Rutube](rutube.ru/channel/69025093), и на [Twich](https://www.twitch.tv/blackc_dw).
+Привет! Это конвентатор волют. Его сделал я, **Black Pagan (BP)**. Я есть на [YouTube](https://www.youtube.com/@Black_Pagan_YT), на [Rutube](rutube.ru/channel/69025093), и на [Twitch](https://www.twitch.tv/blackc_dw).
 
 
 ## Функциональность
@@ -57,7 +57,10 @@
 - библиотека requests
 
 ## Контакты
-- Автор: **Black Pagan (BP)**
-- GitHub: [ваш профиль на GitHub]
-- Email: [ваш email]
+- Автор: **Black Pagan (BP)**.
+- GitHub: (https://github.com/BlackPaganYT).
+- Email: (hooligan.rut@gmail.com).
+- Автор на YouTube: (https://www.youtube.com/@Black_Pagan_YT).
+- Автор на Rutude: (https://www.rutube.ru/channel/69025093).
+- Автор на Twitch: (https://www.twitch.tv/blackc_dw).
 
