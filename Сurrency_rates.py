@@ -63,12 +63,9 @@ def convert(rubles, rates):
     for currency_code in order:
         if currency_code in rates:
             rate = rates[currency_code]['rate']
-            if currency_code == 'CNY':
-                converted = rubles / rate
-                print(f'{rubles:,} руб. = {converted:,.2f} {rates[currency_code]["name"]} ({currency_code})')
-            else:
-                converted = rubles / rate
-                print(f'{rubles:,} руб. = {converted:,.2f} {rates[currency_code]["name"]} ({currency_code})')
+            converted = rubles / rate
+            print(f'{rubles:,} руб. = {converted:,} {rates[currency_code]["name"]} ({currency_code})')
+
 
 
 
