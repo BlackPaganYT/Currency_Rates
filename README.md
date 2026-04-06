@@ -46,10 +46,10 @@
 - библиотека requests
 
 ## Контакты
-- Автор: **Black Pagan (BP)**.
-- GitHub: https://github.com/BlackPaganYT.
-- Email: hooligan.rut@gmail.com.
-- Автор на YouTube: https://www.youtube.com/@Black_Pagan_YT.
-- Автор на Rutude: https://www.rutube.ru/channel/69025093.
-- Автор на Twitch: https://www.twitch.tv/blackc_dw.
+- Автор: **Black Pagan (BP)**
+- GitHub: https://github.com/BlackPaganYT
+- Email: hooligan.rut@gmail.com
+- Автор на YouTube: https://www.youtube.com/@Black_Pagan_YT
+- Автор на Rutude: https://www.rutube.ru/channel/69025093
+- Автор на Twitch: https://www.twitch.tv/blackc_dw
 
