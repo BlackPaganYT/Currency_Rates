@@ -1,35 +1,34 @@
 import tkinter as tk
 from tkinter import messagebox
-import Сurrency_rates
+import Currency_rates
 
-class CurrencyConverterApp:
+class Currency_сonverter:
     def __init__(self, root):
         self.root = root
-        self.root.title("Конвертер валют для 6 класса!")
+        self.root.title("Конвертер валют")
         self.root.geometry("500x400")
-        self.root.configure(bg="#f0f8ff")  # светло‑голубой фон
+        self.root.configure(bg="#f0f8ff")
 
-        # Заголовок
         title_label = tk.Label(
             root,
             text="$ КОНВЕРТЕР ВАЛЮТ $",
             font=("Comic Sans MS", 16, "bold"),
-            bg="#ffebcd",  # персиковый
-            fg="#8b4513"   # коричневый
+            bg="#ffebcd",
+            fg="#8b4513"
         )
         title_label.pack(pady=10)
 
-        # Кнопка обновления курсов
+
         update_btn = tk.Button(
             root,
             text="ОБНОВИТЬ КУРСЫ",
             command=self.update_rates,
-            bg="#98fb98",  # светло‑зелёный
+            bg="#98fb98",
             font=("Arial", 12, "bold")
         )
         update_btn.pack(pady=5)
 
-        # Поле для ввода суммы
+
         tk.Label(
             root,
             text="Введите сумму в рублях:",
@@ -43,22 +42,22 @@ class CurrencyConverterApp:
         )
         self.rubles_entry.pack(pady=5)
 
-        # Кнопка конвертации
+
         convert_btn = tk.Button(
             root,
             text="КОНВЕРТИРОВАТЬ",
             command=self.convert_currency,
-            bg="#ffa07a",  # коралловый
+            bg="#ffa07a",
             font=("Arial", 12, "bold")
         )
         convert_btn.pack(pady=10)
 
-        # Текстовое поле для вывода результатов
+
         self.result_text = tk.Text(
             root,
             height=12,
             width=50,
-            font=("Courier New", 9),
+            font = ("Courier New", 9),
             wrap=tk.WORD
         )
         self.result_text.pack(pady=10, padx=20)
@@ -66,7 +65,7 @@ class CurrencyConverterApp:
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         self.result_text.config(yscrollcommand=scrollbar.set)
 
-        # Инициализация курсов
+
         self.rates = {}
         self.date_str = ""
         self.update_rates()
@@ -103,9 +102,9 @@ class CurrencyConverterApp:
                 if currency_code in self.rates:
                     rate = self.rates[currency_code]['rate']
                     if currency_code == 'CNY':
-                        converted = (rubles / rate) / 10  # Инициализируем converted
+                        converted = (rubles / rate) / 10
                     else:
-                        converted = rubles / rate  # Инициализируем converted
+                        converted = rubles / rate
                     self.result_text.insert(
                         tk.END,
                         f"{rubles:,} руб. = {converted:,.2f} {self.rates[currency_code]['name']} ({currency_code})\n"
@@ -117,7 +116,7 @@ class CurrencyConverterApp:
 
 def main():
     root = tk.Tk()
-    app = CurrencyConverterApp(root)
+    app = Currency_сonverter(root)
     root.mainloop()
 
 if __name__ == "__main__":
