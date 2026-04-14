@@ -18,12 +18,12 @@ def get_currency_rates():
                 xml_date = datetime.strptime(date_str, '%d.%m.%Y').date()
                 today = date.today()
                 if xml_date < today:
-                    print(f"⚠️ Внимание: используются курсы от {date_str} (не сегодняшний день)\n")
+                    print(f"Внимание: используются курсы от {date_str} (не сегодняшний день)\n")
             except ValueError:
-                print("⚠️ Ошибка: не удалось распознать дату в ответе ЦБ, используется текущая дата\n")
+                print("Ошибка: не удалось распознать дату в ответе ЦБ, используется текущая дата\n")
                 date_str = today.strftime('%d.%m.%Y')
         else:
-            print("⚠️ Предупреждение: дата не найдена в ответе ЦБ\n")
+            print("Предупреждение: дата не найдена в ответе ЦБ\n")
             date_str = date.today().strftime('%d.%m.%Y')
 
         currency_names = {
