@@ -1,5 +1,5 @@
 # Конвентатор валют
-Простой конвертер валют на Python, который получает актуальные курсы от [Центрального банка РФ](https://www.cbr.ru) и позволяет конвертировать рубли в основные мировые валюты.
+Простой конвертер валют на [Python](https://www.python.org), который получает актуальные курсы от [Центрального банка РФ](https://www.cbr.ru) и позволяет конвертировать рубли в основные мировые валюты.
 
 
 ## Функциональность
@@ -31,20 +31,19 @@
 
 
 ## Технические детали
-- Источник данных: официальный API Центрального банка РФ (https://www.cbr.ru/scripts/XML_daily.asp).
+- Источник данных: официальный [API Центрального банка РФ](https://www.cbr.ru/scripts/XML_daily.asp).
 - Формат данных: XML.
-- Библиотеки: requests (HTTP‑запросы), стандартная библиотека Python (xml.etree.ElementTree, datetime).
+- Библиотеки: [requests](https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests) (HTTP‑запросы), стандартная библиотека Python ([xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html), [datetime](https://pythonru.com/primery/kak-ispolzovat-modul-datetime-v-python)).
 - Обработка ошибок: проверка статуса HTTP‑ответа, обработка исключений при парсинге и вводе данных.
 
 ## Требования
 - Python 3.6 или выше;
-- доступ в интернет для получения данных от ЦБ РФ;
-- библиотека requests
+- доступ в интернет для получения данных от [ЦБ РФ](https://www.cbr.ru);
+- библиотека [requests](https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests)
 
 ## Контакты
 - Автор: **Black Pagan (BP)**
 - GitHub: https://github.com/BlackPaganYT
-- Email: hooligan.rut@gmail.com
 - Автор на YouTube: https://www.youtube.com/@Black_Pagan_YT
 - Автор на Rutude: https://www.rutube.ru/channel/69025093
 - Автор на Twitch: https://www.twitch.tv/blackc_dw
